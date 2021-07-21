@@ -10,3 +10,4 @@
         flavor_ram: 4096
         boot_from_volume: True
         volume_size: 75
+        network: demo-net-1

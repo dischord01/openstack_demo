@@ -4,4 +4,4 @@
 
 
 [localhost]
-localhost  ansible_connection=local  ansible_python_interpreter='/usr/bin/env python'
+localhost  ansible_connection=local  ansible_python_interpreter='/usr/local/Cellar/python@3.9/3.9.6/bin/python3'
