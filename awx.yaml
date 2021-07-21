@@ -3,11 +3,9 @@
   hosts: localhost
   tasks:
     - openstack.cloud.server:
-        name: vm
+        name: datasci_demo
         state: present
-        cloud: openstack
-        region_name: ams01
-        image: Ubuntu Server 14.04
+        image: CentOS 7 (build 2009)
         flavor_ram: 4096
         boot_from_volume: True
         volume_size: 75
